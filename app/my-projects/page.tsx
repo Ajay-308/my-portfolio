@@ -8,7 +8,7 @@ const Page = () => {
   return (
     <div
       style={{ backgroundImage: "url(/mountains.jpg)" }}
-      className="w-screen h-[150vh] lg:h-screen xl:h-screen flex items-center justify-center bg-center bg-cover"
+      className="xl:w-screen lg:w-screen w-[130vw] h-[200vh] lg:h-screen xl:h-screen flex items-center justify-center bg-center bg-cover"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:max-w-[90%] lg:max-h-[90%] xl:max-w-[90%] xl:max-h-[90%]">
         {Projects.map((project, index) => (

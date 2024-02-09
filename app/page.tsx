@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <main className="w-screen h-screen relative">
+    <main className="w-screen h-[150vh] xl:h-screen lg:h-screen relative">
       <Navbar />
       <div
         className="flex items-center w-full h-full bg-cover bg-center relative"
@@ -18,7 +18,7 @@ export default function Home() {
             Hello I am Ajay <br />{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
-              FUll stack developer{""}
+              FUll Stack Developer{""}
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">

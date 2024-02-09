@@ -5,7 +5,7 @@ const Page = () => {
   return (
     <div
       style={{ backgroundImage: "url(bg-3.jpg)" }}
-      className="w-screen h-screen bg-cover bg-center flex items-center justify-center"
+      className="xl:w-screen lg:w-screen w-[70vh] xl:h-screen lg:h-screen h-[130vh] bg-cover bg-center flex items-center justify-center"
     >
       <div className="h-[60%] w-[80%] max-w-screen-md relative flex items-center justify-center rounded-xl">
         <div className="w-full md:w-[70%] ml-12 lg:w-[30%]">
