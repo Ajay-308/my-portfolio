@@ -15,14 +15,14 @@ export default function Home() {
       >
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white font-semibold">
-            Hello I'm Ajay <br /> I'm a{" "}
+            Hello I am Ajay <br /> I am a{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
               FUll stack developer{""}
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
-            Hello there, I'm full Stack Devloper having good knowledge of MERN
+            Hello there, I am full Stack Devloper having good knowledge of MERN
             Stack Currently learning Gen Ai.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
