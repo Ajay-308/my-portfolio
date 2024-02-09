@@ -21,10 +21,10 @@ const Navbar = () => {
         <Link href="https://github.com/Ajay-308">
           <RxGithubLogo className="w-[30px] h-[30px] text-white cursor-pointer hover:rounded-full hover:bg-gradient-to-r from-purple-500 to-red-500" />
         </Link>
-        <Link href="www.linkedin.com/in/ajay308">
+        <Link href="https://twitter.com/ajaysin308?t=GHbscjL8Xr8fLFbsl3ax3g&s=08">
           <RxTwitterLogo className="w-[30px] h-[30px] text-white cursor-pointer hover:rounded-full hover:bg-gradient-to-r from-purple-500 to-red-500" />
         </Link>
-        <Link href="https://twitter.com/ajaysin308?t=GHbscjL8Xr8fLFbsl3ax3g&s=08">
+        <Link href="https://www.linkedin.com/in/ajay-b94a13233/">
           <RxLinkedinLogo className="w-[30px] h-[30px] text-white cursor-pointer hover:rounded-full hover:bg-gradient-to-r from-purple-500 to-red-500" />
         </Link>
       </div>
