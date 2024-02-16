@@ -15,7 +15,9 @@ const ContactForm = () => {
 
   return (
     <section className="contact mr-12 -ml-12" id="contact">
-      <h1 className="mt-4 ml-4 font-bold text-3xl">Please Wait ...</h1>
+      <h1 className="mt-4 ml-4 font-bold text-3xl">
+        Please touch screen once and Wait ...
+      </h1>
       <div
         className="visme_d"
         data-title="Untitled Proj"
