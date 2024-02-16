@@ -42,7 +42,7 @@ export default function Home() {
               </Link>
             </Button>
             <Button className="rounded-md m-2 h-12 group relative bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]">
-              <Link href="https://drive.google.com/file/d/1pzIObfkN8CkfrYmbyxmO3Mpcg-d6IFbM/view?usp=drive_link">
+              <Link href="https://drive.google.com/file/d/1rAkQS-i-kHrKumMUkrbhzQN37iQaeCrq/view?usp=drive_link">
                 <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hver:opacity-20" />
                 my-resume
               </Link>
