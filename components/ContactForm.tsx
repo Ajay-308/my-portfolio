@@ -23,8 +23,8 @@ const ContactForm = () => {
         data-title="Untitled Proj"
         data-url="90xzgyz6-untitled-proj?fullPage=true"
         data-domain="forms"
-        data-full-page="true"
-        data-min-height="100vh"
+{/*         data-full-page="true"
+        data-min-height="100vh" */}
         data-form-id="15546"
         style={{ backgroundImage: "url(bg-3.jpg)" }}
       ></div>
