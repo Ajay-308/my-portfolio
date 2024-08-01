@@ -92,22 +92,22 @@ export const SkillData = [
 
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
+    title: "disease predictor",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/disease.png",
   },
   {
-    title: "Space Themed Website",
+    title: "note taking app",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/notes.png",
   },
   {
-    title: "Modern Nextjs Portfolio",
+    title: "learn english app",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Screenshot 2024-08-02 014014.png",
+    src: "/talk_user.png",
   },
   {
-    title: "Matrix themed Website",
+    title: "blogging app",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/blod.png",
   },
