@@ -104,7 +104,7 @@ export const Projects = [
   {
     title: "Modern Nextjs Portfolio",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/ajay_portfolio.png",
+    src: "/Screenshot 2024-08-02 014014.png",
   },
   {
     title: "Matrix themed Website",
