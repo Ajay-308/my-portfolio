@@ -68,7 +68,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section className="contact xl:-ml-[10rem] md:h-[40rem]" id="contact">
+    <section className="contact xl:-ml-[10rem] " id="contact">
       <Toaster />
       <h2 className="heading">
         Contact <span>Me</span>
@@ -144,7 +144,7 @@ const Contact: React.FC = () => {
           }}
           type="submit"
           title="Send"
-          className="btn"
+          className="btn ml-24"
         >
           Send Message
         </button>
