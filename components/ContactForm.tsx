@@ -68,87 +68,86 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section className="contact" id="contact">
+    <section className="contact xl:-ml-[10rem] md:h-[40rem]" id="contact">
       <Toaster />
-      <h2 style={{ color: "white" }} className="heading">
+      <h2 className="heading">
         Contact <span>Me</span>
       </h2>
-      <form onSubmit={handleSubmit}>
-        <Label className="input-box">
-          <Input
+      <form onSubmit={handleSubmit} className="md:w-[10rem]">
+        <div className="input-box">
+          <input
             type="text"
             name="name"
             style={{
               background: "transparent",
               color: "white",
               width: "25rem",
-              marginLeft: "-10rem",
+              marginLeft: "0rem",
               height: "3rem",
             }}
-            placeholder="name"
+            placeholder="Name"
             value={formData.name}
             onChange={handleChange}
           />
-          <Input
+          <input
             type="email"
             name="email"
             style={{
               background: "transparent",
               color: "white",
               width: "25rem",
-              marginLeft: "-10rem",
+
               height: "3rem",
             }}
-            placeholder="email"
+            placeholder="Email"
             value={formData.email}
             onChange={handleChange}
           />
-        </Label>
-        <Label className="input-box">
-          <Input
+        </div>
+        <div className="input-box">
+          <input
             type="number"
             name="number"
             style={{
               background: "transparent",
               color: "white",
               width: "25rem",
-              marginLeft: "-10rem",
+
               height: "3rem",
             }}
-            placeholder="number"
+            placeholder="Number"
             value={formData.number}
             onChange={handleChange}
           />
-          <Textarea
+          <textarea
             name="message"
-            placeholder="send your query"
+            placeholder="Send your query"
             className="send"
             style={{
               background: "transparent",
               color: "white",
               width: "25rem",
               border: "white",
-              marginLeft: "-10rem",
+
               height: "7rem",
             }}
             value={formData.message}
             onChange={handleChange}
           />
-        </Label>
-        <Button
+        </div>
+        <button
           style={{
             color: "white",
             width: "13rem",
             background: "#3B82F6",
             border: "white",
-            marginLeft: "-5rem",
           }}
           type="submit"
           title="Send"
           className="btn"
         >
           Send Message
-        </Button>
+        </button>
       </form>
     </section>
   );
